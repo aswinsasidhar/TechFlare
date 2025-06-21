@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="8" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-21T10:11:30 IST" name="Default suite" finished-at="2025-06-21T10:15:15 IST" duration-ms="224855">
+    <groups>
+    </groups>
+    <test started-at="2025-06-21T10:11:30 IST" name="Default test" finished-at="2025-06-21T10:15:15 IST" duration-ms="224855">
+      <class name="Tech.Tech_flare.HomeTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:11:30 IST" name="beforeMethod" finished-at="2025-06-21T10:12:27 IST" duration-ms="56327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Urlverification()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:12:27 IST" name="Urlverification" finished-at="2025-06-21T10:12:35 IST" duration-ms="7957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Urlverification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:12:35 IST" name="tearDown" finished-at="2025-06-21T10:12:35 IST" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:12:35 IST" name="beforeMethod" finished-at="2025-06-21T10:12:40 IST" duration-ms="5040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="FooterLinks()[pri:1, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:12:40 IST" name="FooterLinks" finished-at="2025-06-21T10:12:47 IST" duration-ms="6460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FooterLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:12:47 IST" name="tearDown" finished-at="2025-06-21T10:12:47 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:12:47 IST" name="beforeMethod" finished-at="2025-06-21T10:12:59 IST" duration-ms="11784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifypagerefresh()[pri:2, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:12:59 IST" name="verifypagerefresh" finished-at="2025-06-21T10:13:01 IST" duration-ms="2358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypagerefresh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:13:01 IST" name="tearDown" finished-at="2025-06-21T10:13:01 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:13:01 IST" name="beforeMethod" finished-at="2025-06-21T10:13:13 IST" duration-ms="11934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyregisternowbutton()[pri:3, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:13:13 IST" name="verifyregisternowbutton" finished-at="2025-06-21T10:13:17 IST" duration-ms="3743" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[wrong error message expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: wrong error message expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at Tech.Tech_flare.HomeTest.verifyregisternowbutton(HomeTest.java:150)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyregisternowbutton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:13:17 IST" name="tearDown" finished-at="2025-06-21T10:13:17 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:13:17 IST" name="beforeMethod" finished-at="2025-06-21T10:13:27 IST" duration-ms="9386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidcase()[pri:4, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:13:27 IST" name="invalidcase" finished-at="2025-06-21T10:13:40 IST" duration-ms="13208" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='error-message d-block'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60352}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60352/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ccd12b4e496115458a12c07bc59d506b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='error-message d-block'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60352}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60352/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ccd12b4e496115458a12c07bc59d506b
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Tech.Tech_flare.Homepage.error(Homepage.java:69)
+at Tech.Tech_flare.HomeTest.invalidcase(HomeTest.java:183)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidcase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:13:40 IST" name="tearDown" finished-at="2025-06-21T10:13:40 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:13:40 IST" name="beforeMethod" finished-at="2025-06-21T10:13:52 IST" duration-ms="12125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="pagerefresh()[pri:5, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:13:52 IST" name="pagerefresh" finished-at="2025-06-21T10:14:01 IST" duration-ms="8355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagerefresh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:14:01 IST" name="tearDown" finished-at="2025-06-21T10:14:01 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:14:01 IST" name="beforeMethod" finished-at="2025-06-21T10:14:15 IST" duration-ms="13796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifycareers()[pri:6, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:14:15 IST" name="verifycareers" finished-at="2025-06-21T10:14:23 IST" duration-ms="8336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycareers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:14:23 IST" name="tearDown" finished-at="2025-06-21T10:14:23 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:14:23 IST" name="beforeMethod" finished-at="2025-06-21T10:14:35 IST" duration-ms="11911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="checkservice()[pri:7, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:14:35 IST" name="checkservice" finished-at="2025-06-21T10:14:36 IST" duration-ms="615" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+urlL does not contain #Website Development expected [true] but found [false],
+url does not contain #Digital Marketing expected [true] but found [false],
+url does not contain #Graphic designing expected [true] but found [false],
+url does not contain #Mobile app development expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+urlL does not contain #Website Development expected [true] but found [false],
+url does not contain #Digital Marketing expected [true] but found [false],
+url does not contain #Graphic designing expected [true] but found [false],
+url does not contain #Mobile app development expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at Tech.Tech_flare.HomeTest.checkservice(HomeTest.java:287)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkservice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:14:36 IST" name="tearDown" finished-at="2025-06-21T10:14:36 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:14:36 IST" name="beforeMethod" finished-at="2025-06-21T10:14:48 IST" duration-ms="11691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CALLACTIONBUTTON()[pri:8, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:14:48 IST" name="CALLACTIONBUTTON" finished-at="2025-06-21T10:14:49 IST" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CALLACTIONBUTTON -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:14:49 IST" name="tearDown" finished-at="2025-06-21T10:14:50 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:14:50 IST" name="beforeMethod" finished-at="2025-06-21T10:15:01 IST" duration-ms="11864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="IMAGES()[pri:9, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:15:01 IST" name="IMAGES" finished-at="2025-06-21T10:15:02 IST" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IMAGES -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:15:02 IST" name="tearDown" finished-at="2025-06-21T10:15:02 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:15:02 IST" name="beforeMethod" finished-at="2025-06-21T10:15:13 IST" duration-ms="10798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyImageZoomOutByCloseButton()[pri:10, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:15:13 IST" name="verifyImageZoomOutByCloseButton" finished-at="2025-06-21T10:15:15 IST" duration-ms="1562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImageZoomOutByCloseButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tech.Tech_flare.HomeTest@3857f613]" started-at="2025-06-21T10:15:15 IST" name="tearDown" finished-at="2025-06-21T10:15:15 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tech.Tech_flare.HomeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
